@@ -139,3 +139,22 @@ len(cars)
 
 
 
+#----------TUPLES 
+print("\n------------ Dimensions -------------")
+print("\n")
+dimensions = (200,50)
+print(dimensions[0])
+print(dimensions[1])
+print("\nLooping tuple")
+for dimension in dimensions:
+    print(dimension)
+
+print("\nWriting over a tuple")
+print("Orginal tuple:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400,100)
+print("New tuple values:")
+for dimension    in dimensions:
+    print(dimension)

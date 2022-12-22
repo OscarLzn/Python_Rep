@@ -26,6 +26,18 @@ pizzaz.append('hawuaiian')
 my_friend_pizza.append("Italian")
 print (pizzaz)
 print(my_friend_pizza)
+print("\n")
 
+print("My favorite pizzas are:")
+for pizza in pizzaz[:]:
+    print(pizza.title())
 
+print("My friend's favorite pizzas are:")
+for FriendP in my_friend_pizza[:]:
+    print(FriendP.title())
 
+#Exersise 3
+print("\n")
+fruits = ['Apple', 'Cucumber', 'pineapple']
+for fruit in fruits[:]:
+    print(fruit)
